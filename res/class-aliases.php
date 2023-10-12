@@ -1,0 +1,9 @@
+<?php
+class_alias(
+    \Lemming\EnvFallback\EnvVariableProcessor::class,
+    \TYPO3\CMS\Core\Configuration\Processor\Placeholder\EnvVariableProcessor::class
+);
+class_alias(
+    \Lemming\EnvFallback\EnvironmentPlaceholder::class,
+    \Helhum\ConfigLoader\Processor\Placeholder\EnvironmentPlaceholder::class
+);

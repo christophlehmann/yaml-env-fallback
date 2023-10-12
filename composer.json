@@ -1,0 +1,21 @@
+{
+  "name": "christophlehmann/yaml-env-fallback",
+  "description": "A YAML Processor providing fallback functionality for env variables for TYPO3",
+  "license": [
+    "GPL-2.0-or-later"
+  ],
+  "require": {
+    "typo3/cms-core": "^11.5 || ^12.4"
+  },
+  "suggest": {
+    "helhum/config-loader": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Lemming\\EnvFallback\\": "src/"
+    },
+    "files": [
+      "res/class-aliases.php"
+    ]
+  }
+}
